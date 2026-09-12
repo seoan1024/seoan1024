@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Keep building">
+  <defs><linearGradient id="f" x1="0" x2="1"><stop stop-color="#7c3aed"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="1200" height="220" rx="24" fill="#0b1220" stroke="#334155"/>
+  <path d="M0 180 C180 120 260 220 430 160 S720 120 900 165 S1080 210 1200 145" fill="none" stroke="url(#f)" stroke-width="3" opacity=".75"/>
+  <text x="600" y="87" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="800" fill="#f8fafc">KEEP BUILDING.</text>
+  <text x="600" y="120" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#94a3b8">Write code · train models · study results · build again</text>
+  <circle cx="600" cy="158" r="8" fill="#22d3ee"/><circle cx="572" cy="158" r="4" fill="#7c3aed"/><circle cx="628" cy="158" r="4" fill="#7c3aed"/>
+</svg>

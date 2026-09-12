@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Korean LLM project journey from v1 to v4">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="1200" height="320" rx="24" fill="#0b1220" stroke="#334155"/>
+  <text x="52" y="56" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="800" fill="#f8fafc">PROJECT JOURNEY</text>
+  <text x="52" y="84" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#94a3b8">From experiments to a serious Korean LLM training pipeline</text>
+  <path d="M112 182 H1080" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  <path d="M112 182 H1080" stroke="url(#g)" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <g font-family="Inter,Segoe UI,Arial">
+    <g><circle cx="160" cy="182" r="29" fill="#111827" stroke="#7c3aed" stroke-width="4"/><text x="160" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v1</text><text x="160" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Start</text><text x="160" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">첫 구현과 실험</text></g>
+    <g><circle cx="470" cy="182" r="29" fill="#111827" stroke="#8b5cf6" stroke-width="4"/><text x="470" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v2</text><text x="470" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Expand</text><text x="470" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">구조와 학습 경험 확장</text></g>
+    <g><circle cx="760" cy="182" r="29" fill="#111827" stroke="#5eead4" stroke-width="4"/><text x="760" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v3</text><text x="760" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Refine</text><text x="760" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">PyTorch 기반 개선</text></g>
+    <g><circle cx="1040" cy="182" r="31" fill="#0f172a" stroke="#22d3ee" stroke-width="5"/><text x="1040" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v4</text><text x="1040" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Build</text><text x="1040" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">~1.09B 한국어 LLM</text></g>
+  </g>
+</svg>

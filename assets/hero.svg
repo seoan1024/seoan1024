@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Seoan | Korean LLM Developer</title>
+  <desc id="desc">A dark futuristic banner for Seoan, a student programmer building Korean language models.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#11182b"/><stop offset="1" stop-color="#09151a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="970" cy="70" r="110" fill="#7c3aed" opacity="0.14" filter="url(#blur)"/>
+  <circle cx="1050" cy="310" r="120" fill="#22d3ee" opacity="0.12" filter="url(#blur)"/>
+  <g opacity="0.13" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
+    <path d="M80 0V420M180 0V420M280 0V420M380 0V420M480 0V420M580 0V420M680 0V420M780 0V420M880 0V420M980 0V420M1080 0V420"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="70" y="68" width="1060" height="284" rx="24" fill="#0b1220" fill-opacity="0.72" stroke="#334155"/>
+  </g>
+  <g>
+    <rect x="105" y="101" width="10" height="104" rx="5" fill="url(#glow)"/>
+    <text x="145" y="125" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#a5b4fc">SEOAN / AI LAB</text>
+    <text x="145" y="179" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800" fill="#f8fafc">중학생 프로그래머</text>
+    <text x="145" y="225" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" fill="#cbd5e1">한국어 LLM을 직접 만들고 학습합니다.</text>
+    <text x="145" y="266" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#94a3b8">Build → Train → Analyze → Improve → Repeat</text>
+    <g transform="translate(145 292)">
+      <rect width="118" height="32" rx="16" fill="#1e293b" stroke="#475569"/>
+      <text x="59" y="21" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">PYTORCH</text>
+      <rect x="128" width="116" height="32" rx="16" fill="#1e293b" stroke="#475569"/>
+      <text x="186" y="21" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">1.09B LLM</text>
+      <rect x="254" width="126" height="32" rx="16" fill="#1e293b" stroke="#475569"/>
+      <text x="317" y="21" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">KOREAN NLP</text>
+    </g>
+  </g>
+  <g transform="translate(820 112)">
+    <rect width="250" height="180" rx="20" fill="#0f172a" stroke="#475569"/>
+    <text x="24" y="34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#94a3b8">CURRENT PROJECT</text>
+    <text x="24" y="74" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" font-weight="800" fill="#f8fafc">Korean-llm-v4</text>
+    <text x="24" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#cbd5e1">~1.09B parameters</text>
+    <text x="24" y="135" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#94a3b8">RoPE · KV Cache · SFT</text>
+    <text x="24" y="157" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#94a3b8">Training logs · Optimization</text>
+  </g>
+</svg>
