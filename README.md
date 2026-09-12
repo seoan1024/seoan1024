@@ -129,32 +129,6 @@
 
 ---
 
-<div align="center">
-
-### 🌱 EcoLens Pro v2.0
-![Status](https://img.shields.io/badge/Status-In%20Development-FF6B6B?style=for-the-badge)
-![Type](https://img.shields.io/badge/Type-Computer%20Vision-FF69B4?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python)
-![Framework](https://img.shields.io/badge/Framework-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
-
-**이미지 기반 AI 재활용 분류 시스템**
-
-</div>
-
-**주요 기능:**
-- 📸 실시간 이미지 인식 및 분류
-- 🤖 머신러닝 기반 쓰레기 카테고리 분석
-- 📱 모바일 앱 개발 진행 중
-- 🌍 환경 보호를 위한 AI 솔루션
-
-**사용 기술:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv)
-![Mobile](https://img.shields.io/badge/Mobile%20Dev-Android%2FiOS-90EE90?style=flat-square)
-
----
-
 ## 📈 Repository Overview
 
 ```
