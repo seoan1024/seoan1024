@@ -1,0 +1,57 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.48" stop-color="#17133A"/>
+      <stop offset="1" stop-color="#071925"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="120" y1="45" x2="1030" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+
+  <circle cx="160" cy="80" r="68" fill="#7C3AED" opacity="0.18" filter="url(#blur)"/>
+  <circle cx="1020" cy="215" r="85" fill="#06B6D4" opacity="0.15" filter="url(#blur)"/>
+
+  <g opacity="0.30" stroke="#8B5CF6" stroke-width="1">
+    <path d="M20 230 C170 120 255 250 420 150 S690 50 820 140 S1030 240 1180 120"/>
+    <path d="M0 255 C150 150 310 280 470 175 S710 80 860 165 S1030 270 1200 155"/>
+  </g>
+
+  <g stroke="url(#glow)" stroke-width="2" opacity="0.55">
+    <path d="M875 75 L960 112 L1040 88 L1092 136"/>
+    <path d="M915 205 L980 166 L1052 195 L1132 158"/>
+    <path d="M92 190 L158 145 L230 184 L306 132"/>
+  </g>
+
+  <g fill="url(#glow)">
+    <circle cx="875" cy="75" r="4"/>
+    <circle cx="960" cy="112" r="5"/>
+    <circle cx="1040" cy="88" r="4"/>
+    <circle cx="1092" cy="136" r="5"/>
+    <circle cx="915" cy="205" r="4"/>
+    <circle cx="980" cy="166" r="5"/>
+    <circle cx="1052" cy="195" r="4"/>
+    <circle cx="1132" cy="158" r="5"/>
+    <circle cx="92" cy="190" r="4"/>
+    <circle cx="158" cy="145" r="5"/>
+    <circle cx="230" cy="184" r="4"/>
+    <circle cx="306" cy="132" r="5"/>
+  </g>
+
+  <g fill="#EDE9FE">
+    <text x="72" y="108" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" opacity="0.92">SEOAN1024</text>
+    <text x="72" y="166" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800">Building AI, One Model</text>
+    <text x="72" y="220" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="url(#glow)">at a Time.</text>
+    <text x="72" y="255" font-family="Arial, Helvetica, sans-serif" font-size="18" opacity="0.72">Student Developer · Korean LLM · PyTorch · Research through building</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="28" stroke="#FFFFFF" stroke-opacity="0.10"/>
+</svg>

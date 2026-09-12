@@ -1,237 +1,153 @@
 <div align="center">
-
-# Seoan
-
-[![GitHub Profile](https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024)
-[![Email](https://img.shields.io/badge/Email-seoan102410%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:seoan102410@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Suwon%2C%20Korea-4285F4?style=for-the-badge&logo=google-maps)](https://maps.google.com)
-
-**AI/ML Engineer** | **Deep Learning Researcher** | **Korean NLP Specialist**
-
+  <img src="./assets/header.svg" alt="Seoan - AI Developer" width="100%" />
 </div>
 
+<br />
+
+<div align="center">
+  <a href="https://github.com/seoan1024">
+    <img src="https://img.shields.io/badge/GitHub-seoan1024-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-AI%20%2F%20LLM-6e56cf?style=for-the-badge" alt="AI / LLM" />
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" alt="Python" />
+</div>
+
+<br />
+
+# 👋 안녕하세요, 서안입니다.
+
+### `중학생 프로그래머 · AI 개발자 · 한국어 LLM 제작자`
+
+저는 **AI가 어떻게 만들어지는지 직접 이해하고 구현하는 것**을 좋아합니다.
+
+사용하는 것에서 멈추지 않고, 모델 구조를 만들고 데이터를 준비하고 학습시키면서
+**실패하고 분석하고 다시 개선하는 과정**을 즐기고 있습니다. 🧠⚡
+
+> **Build → Train → Analyze → Improve → Repeat**
+
 ---
 
-## 📋 About Me
-
-안녕하세요. 저는 **한국어 자연어 처리(NLP)** 와 **대규모 언어모델(LLM)** 개발을 하는 중학교 2학년 개발자입니다. 현재 1.09B 파라미터 규모의 한국어 언어모델을 처음부터 끝까지 학습하는 프로젝트를 주도하고 있으며, 최신 딥러닝 기술과 모델 최적화에 집중하고 있습니다.
-
----
-
-## 🎯 Featured Repositories
+## 🧠 지금 만들고 있는 것
 
 <div align="center">
 
-### 🚀 Korean-LLM-v4 
-![Status](https://img.shields.io/badge/Status-Active-00C851?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-4.0-blue?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python)
-![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
+### 🇰🇷 Korean-llm-v4
 
-**1.09B 파라미터 한국어 LLM 풀스크래치 학습**
+**1.09B Parameter Korean LLM**
 
 </div>
 
-**핵심 기술:**
-- 🎯 RoPE (Rotary Position Embedding)
-- 💾 KV Cache 최적화
-- 🔢 BF16-bit AdamW 옵티마이저
-- ⚡ 메모리 효율 최적화
+PyTorch 기반으로 직접 개발하고 있는 한국어 LLM 프로젝트입니다.
 
-| 항목 | 상세 |
-|------|------|
-| **모델 크기** | 1.09B Parameters |
-| **학습 상태** | 🔄 Active Development |
-| **라이선스** | 📜 GNU GPL v3.0 |
-| **최근 업데이트** | 📅 33 minutes ago |
+```text
+Model
+ ├─ Transformer Architecture
+ ├─ RoPE
+ ├─ KV Cache
+ └─ ~1.09B Parameters
 
-[![Repository](https://img.shields.io/badge/Repository-Korean--llm--v4-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024/Korean-llm-v4)
-[![Stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seoan1024/Korean-llm-v4)
-
----
-
-<div align="center">
-
-### 📊 Korean-LLM-v3
-![Status](https://img.shields.io/badge/Status-Maintained-1E90FF?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-3.0-blue?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python)
-![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
-
-**PyTorch 기반 한국어 LLM 구현 및 학습 프로젝트**
-
-</div>
-
-**주요 통계:**
-
-| 지표 | 수치 |
-|------|------|
-| **⭐ Stars** | 113 |
-| **🔀 Forks** | 16 |
-| **👁️ Watchers** | 3 |
-| **📜 License** | GNU GPL v3.0 |
-| **📅 Updated** | 2 days ago |
-
-**특징:**
-✅ 오픈소스 커뮤니티 인정 (113+ Stars)  
-✅ 한국어 NLP 학습 기반 제공  
-✅ 모델 아키텍처 최적화  
-✅ 확장 가능한 구조
-
-[![Repository](https://img.shields.io/badge/Repository-Korean--llm--v3-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024/Korean-llm-v3)
-[![Stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seoan1024/Korean-llm-v3)
-[![Forks](https://img.shields.io/github/forks/seoan1024/Korean-llm-v3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seoan1024/Korean-llm-v3)
-
----
-
-<div align="center">
-
-### 🔬 Korean-LLM-v2
-![Status](https://img.shields.io/badge/Status-Archive-9370DB?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-2.0-blue?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python)
-
-**PyTorch 기반 한국어 LLM 구현 (레거시)**
-
-</div>
-
-| 지표 | 수치 |
-|------|------|
-| **⭐ Stars** | 3 |
-| **🔀 Forks** | 1 |
-| **📜 License** | GNU GPL v3.0 |
-| **📅 Updated** | 5 days ago |
-
-[![Repository](https://img.shields.io/badge/Repository-korean--llm--v2-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024/korean-llm-v2)
-
----
-
-<div align="center">
-
-### 📦 Korean-LLM-v1
-![Status](https://img.shields.io/badge/Status-Archive-9370DB?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python)
-
-**초기 한국어 LLM 프로토타입**
-
-</div>
-
-| 지표 | 수치 |
-|------|------|
-| **⭐ Stars** | 2 |
-| **🔀 Forks** | 1 |
-| **📜 License** | MIT License |
-
-프로젝트의 시작점으로, LLM 개발 여정의 첫 단계입니다.
-
-[![Repository](https://img.shields.io/badge/Repository-Korean--llm--v1-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024/Korean-llm-v1)
-
----
-
-## 📈 Repository Overview
-
-```
-┌─ Korean-LLM Series ─────────────────┐
-│                                      │
-│  v4 (Active)     ⭐⭐⭐⭐⭐ Latest  │
-│  ├─ 1.09B Params                    │
-│  ├─ RoPE, KV Cache                  │
-│  └─ Production Ready                │
-│                                      │
-│  v3 (Maintained) ⭐⭐⭐⭐ Stable   │
-│  ├─ 113 Stars                       │
-│  ├─ Community Driven                │
-│  └─ Learning Resource               │
-│                                      │
-│  v2, v1 (Archive)      Foundation   │
-│  └─ Initial Prototypes              │
-│                                      │
-└──────────────────────────────────────┘
+Training
+ ├─ Korean Pretraining
+ ├─ SFT
+ ├─ BF16 / 8-bit AdamW
+ ├─ Dataset Caching
+ └─ Training Monitoring
 ```
 
+🔗 **Repository:** [Korean-llm-v4](https://github.com/seoan1024/Korean-llm-v4)
+
 ---
 
-## 💻 Technical Stack
+## 🚀 Projects
+
+| Project | Description | Status |
+|:--|:--|:--:|
+| 🧠 **Korean-llm-v4** | 1.09B 한국어 LLM 개발 및 학습 | 🚧 Active |
+| 🤖 **Korean-llm-v3** | PyTorch 기반 한국어 LLM | ✅ Done |
+| 🧪 **Korean-llm-v2** | 한국어 LLM 구현 및 실험 | ✅ Done |
+| 🌱 **Korean-llm-v1** | 첫 한국어 LLM 프로젝트 | ✅ Done |
+
+---
+
+## 🛠️ Tech Stack
+
+### AI / Machine Learning
+
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Transformers-FCC624?style=flat-square&logo=huggingface&logoColor=111111" alt="Transformers" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+</p>
+
+### Development
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+</p>
+
+---
+
+## 🔬 How I Learn
+
+저는 정답만 찾는 것보다 **왜 그런 결과가 나왔는지 추적하는 것**을 중요하게 생각합니다.
+
+```text
+문제 발생
+   ↓
+로그 확인
+   ↓
+원인 가설
+   ↓
+코드 / 데이터 / 학습 설정 수정
+   ↓
+다시 학습
+   ↓
+결과 비교
+   ↓
+새로운 문제 발견
+   ↺
+```
+
+모델이 이상하게 나오면 그것도 기록입니다.
+좋은 결과만 남기는 것보다 **과정 전체를 남기는 개발자**가 되고 싶습니다.
+
+---
+
+## 🎯 Goal
+
+> **직접 만든 한국어 LLM을 사람들이 실제로 사용할 수 있는 수준까지 발전시키는 것.**
+
+그리고 언젠가는 모델 하나를 만드는 것을 넘어,
+**AI 시스템 전체를 설계하고 이해할 수 있는 개발자**가 되는 것이 목표입니다.
+
+---
+
+## 📊 GitHub
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=seoan1024&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seoan1024&layout=compact&hide_border=true&theme=transparent" height="165" alt="Top Languages" />
+</div>
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+<br />
 
-### ML/AI Frameworks
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-### Development & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=seoan1024&hide_border=true&theme=transparent" alt="GitHub Streak" />
 </div>
 
 ---
 
-## 🛠️ Core Competencies
-
-| 분야 | 설명 | 수준 |
-|------|------|------|
-| **🧠 LLM Development** | 대규모 언어모델 아키텍처 설계 및 학습 | ⭐⭐⭐⭐⭐ |
-| **🗣️ NLP Engineering** | 한국어 토크나이제이션, 전처리, 최적화 | ⭐⭐⭐⭐⭐ |
-| **⚙️ Deep Learning** | Transformer, Attention, 신경망 | ⭐⭐⭐⭐⭐ |
-| **🚀 Model Optimization** | 메모리 관리, 연산 최적화, 분산 학습 | ⭐⭐⭐⭐ |
-| **👁️ Computer Vision** | 이미지 분류, 객체 인식 | ⭐⭐⭐⭐ |
-
----
-
-## 🏆 Achievements & Stats
-
 <div align="center">
 
-![GitHub Followers](https://img.shields.io/badge/GitHub%20Followers-25-blue?style=for-the-badge)
-![Following](https://img.shields.io/badge/Following-1-green?style=for-the-badge)
-![Public Repos](https://img.shields.io/badge/Public%20Repos-4+-purple?style=for-the-badge)
+### 💡 Keep Building.
 
-</div>
+**Write code. Train models. Study the results. Build again.**
 
-✨ **Korean-LLM 시리즈 개발** - v1부터 v4까지 지속적 업그레이드  
-🎯 **1.09B 파라미터 모델 학습** - 한국어 특화 LLM 구현 완료  
-📈 **113+ Stars 획득** - Korean-LLM-v3에서 커뮤니티 인정  
-🔬 **오픈소스 기여** - GitHub에서 공개 프로젝트 관리  
-💡 **최신 기술 적용** - RoPE, KV Cache, BF16 최적화 구현
-
----
-
-## 📚 Learning & Research Focus
-
-| 주제 | 상태 | 진행도 |
-|------|------|--------|
-| 한국어 NLP 고급 기법 | 🔄 진행 중 | ████████░░ 80% |
-| LLM 학습 & 파인튜닝 | ✅ 완료 | ██████████ 100% |
-| Model Compression | 📋 계획 중 | ██░░░░░░░░ 20% |
-| 멀티모달 AI | 📋 계획 중 | ░░░░░░░░░░ 0% |
-| AI 윤리 및 응용 | 📋 계획 중 | ░░░░░░░░░░ 0% |
-
----
-
-## 📬 Contact & Connect
-
-<div align="center">
-
-프로젝트 협력, 기술 논의, 또는 한국어 NLP에 관심 있으신 분들의 연락을 기다립니다.
-
-[![GitHub](https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github)](https://github.com/seoan1024)
-[![Email](https://img.shields.io/badge/Email-seoan102410%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:seoan102410@gmail.com)
-
----
-
-### 🚀 Ready to collaborate on cutting-edge AI projects
-
-![Last Update](https://img.shields.io/badge/Last%20Updated-September%202026-brightgreen?style=flat-square)
-![Profile Views](https://img.shields.io/badge/Profile%20Status-Active-blue?style=flat-square)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e56cf,100:00c2ff&height=110&section=footer" alt="footer" width="100%" />
 
 </div>
