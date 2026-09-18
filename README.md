@@ -352,14 +352,27 @@ Understanding this entire structure step by step is my greatest learning right n
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=seoan1024&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seoan1024&layout=compact&hide_border=true&theme=transparent" height="170" alt="Top languages" />
+  <a href="https://github.com/seoan1024">
+    <img src="https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </div>
 
-<br />
+### 🔥 Latest Projects
+
+**Korean-llm-v4** (Main) — ~1.09B Parameter Korean LLM  
+**Korean-llm-v3** — PyTorch Implementation  
+**Korean-llm-v2** — Experiment & Expansion  
+**Korean-llm-v1** — Project Foundation
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=seoan1024&hide_border=true&theme=transparent" alt="GitHub streak" />
+  
+| Repository | Language | Stars |
+|:--|:--|:--|
+| korean-llm-v4 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v4?style=flat-square&logo=github) |
+| korean-llm-v3 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v3?style=flat-square&logo=github) |
+| korean-llm-v2 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/korean-llm-v2?style=flat-square&logo=github) |
+| korean-llm-v1 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/korean-llm-v1?style=flat-square&logo=github) |
+
 </div>
 
 ---
