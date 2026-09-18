@@ -18,9 +18,14 @@
   코드를 쓰는 것에서 끝내지 않고, 모델을 직접 만들고 학습시키며 원인을 추적합니다.
 </p>
 
+<p align="center">
+  <strong>Middle School Programmer · AI Developer · Korean LLM Creator</strong><br />
+  I don't stop at writing code—I build models, train them, and trace the reasons behind every result.
+</p>
+
 ---
 
-## 👋 안녕하세요, 서안입니다.
+## 👋 안녕하세요, 서안입니다. | Hi, I'm Seoan.
 
 저는 **AI가 어떻게 만들어지는지 직접 이해하고 구현하는 것**을 좋아하는 중학생 프로그래머입니다.
 
@@ -49,11 +54,40 @@
 
 이 과정을 반복하면서 **"왜 이렇게 됐는가?"**를 알아가는 일에 가깝습니다. 🧠
 
+---
+
+I'm a middle school programmer who loves **directly understanding and implementing how AI is built**.
+
+I've completed courses in Python basics, algorithms, advanced algorithms, data analysis, and machine learning. Currently, I'm learning C.
+
+I'm particularly interested in **building Korean LLMs**, so I continuously expand projects where I implement model architectures in code, prepare data, run training, and analyze results.
+
+For me, development isn't about getting finished answers—it's about repeating this cycle:
+
+```text
+Idea
+  ↓
+Implement in Code
+  ↓
+Actually Run It
+  ↓
+Find Strange Results
+  ↓
+Analyze Logs / Data / Code
+  ↓
+Form Hypotheses
+  ↓
+Fix and Retrain
+  ↺
+```
+
+And through this, I learn to ask **"Why did this happen?"** 🧠
+
 > **Build → Train → Analyze → Improve → Repeat**
 
 ---
 
-## 🇰🇷 My Main Project (KoreanLLM Project)
+## 🇰🇷 My Main Project (KoreanLLM Project) | 내 주요 프로젝트
 
 ### [Korean-llm-v4](https://github.com/seoan1024/Korean-llm-v4)
 
@@ -61,11 +95,17 @@
 
 단순히 모델을 불러와 사용하는 프로젝트가 아니라, **모델과 학습 파이프라인 자체를 이해하고 개선하는 것**을 목표로 하고 있습니다.
 
+---
+
+A project where I directly develop and train a **Korean LLM with ~1.09B parameters**.
+
+This isn't just about using a pre-built model. The goal is to **understand and improve the model architecture and training pipeline itself**.
+
 <div align="center">
   <img src="./assets/llm-stack.svg" alt="Korean LLM stack" width="100%" />
 </div>
 
-### 🔬 현재 다루는 영역
+### 🔬 현재 다루는 영역 | Current Focus Areas
 
 | 영역 | 내용 |
 |:--|:--|
@@ -77,9 +117,19 @@
 | 💾 Data | 데이터셋 캐싱 및 학습 파이프라인 |
 | 📊 Monitoring | 학습 로그 저장 및 결과 비교 |
 
+| Area | Description |
+|:--|:--|
+| 🧠 Model | Transformer-based language model |
+| 📐 Position | RoPE |
+| ⚡ Inference | KV Cache |
+| 🎓 Training | Korean pretraining + SFT |
+| 🧮 Optimization | BF16, 8-bit AdamW |
+| 💾 Data | Dataset caching and training pipeline |
+| 📊 Monitoring | Training logs and result comparison |
+
 ---
 
-## 🧪 최근의 실제 실험
+## 🧪 최근의 실제 실험 | Recent Real Experiments
 
 모델을 학습시키다 보면 항상 멋진 결과만 나오지는 않습니다.
 
@@ -95,13 +145,27 @@
 
 ---
 
-## 🚀 Project Journey
+Training models doesn't always produce great results.
+
+Recently, I experienced a problem where **the model kept repeating system prompts during training**. I reverted settings, cleaned up checkpoints, and retrained while tracking the root cause.
+
+Currently, I'm working toward **50,000-step training**, saving intermediate results and comparing outputs and logs across specific ranges.
+
+I believe these failures are an important part of the project itself.
+
+> **Failed training is also data.**
+>
+> When results are wrong, I choose to record why it failed rather than delete the failure.
+
+---
+
+## 🚀 Project Journey | 프로젝트 여정
 
 <div align="center">
   <img src="./assets/journey.svg" alt="Korean LLM project journey" width="100%" />
 </div>
 
-### 📌 Repository History
+### 📌 Repository History | 저장소 역사
 
 - **Korean-llm-v1**  : 첫 한국어 LLM 프로젝트
 - **Korean-llm-v2**  : 구현과 실험 확장
@@ -109,6 +173,15 @@
 - **Korean-llm-v4**  : 약 1.09B 규모로 확장한 현재 메인 프로젝트
 
 각 버전은 단순한 새 폴더가 아니라, 이전 버전에서 생긴 문제와 배운 점을 다음 버전으로 가져가는 **실험 기록의 연속**입니다.
+
+---
+
+- **Korean-llm-v1**  : First Korean LLM project
+- **Korean-llm-v2**  : Expanded implementation and experiments
+- **Korean-llm-v3**  : PyTorch-based improvements
+- **Korean-llm-v4**  : Current main project scaled to ~1.09B
+
+Each version isn't just a new folder—it's a **continuous record of experiments**, carrying forward problems and lessons from previous versions.
 
 ---
 
@@ -132,11 +205,17 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
 </p>
 
-> 사용하는 도구는 계속 바뀌고 있습니다. 중요한 건 도구의 개수보다 **직접 이해하고 사용할 수 있는가**라고 생각합니다.
+### 사용하는 도구와 가치관 | Tools & Philosophy
+
+사용하는 도구는 계속 바뀌고 있습니다. 중요한 건 도구의 개수보다 **직접 이해하고 사용할 수 있는가**라고 생각합니다.
 
 ---
 
-## 🧠 How I Learn AI
+The tools I use keep evolving. What matters isn't the number of tools but **understanding and actually using them myself**.
+
+---
+
+## 🧠 How I Learn AI | AI 배우는 방식
 
 저는 AI를 배울 때 **설명만 읽기보다 직접 구현하고 결과를 관찰하는 방식**을 선호합니다.
 
@@ -151,7 +230,24 @@
 
 이렇게 작은 실험을 쌓아가면서 모델을 이해하려고 합니다.
 
-### 🔍 특히 관심 있는 질문
+---
+
+When learning AI, I prefer **implementing directly and observing results over just reading explanations**.
+
+For example, if I'm curious how a setting affects the model:
+
+1. Train with the current setting.
+2. Save logs and generation results.
+3. Change only one variable.
+4. Train again.
+5. Compare the two experiments.
+6. Form hypotheses about why the difference occurred.
+
+By accumulating these small experiments, I try to understand the model.
+
+---
+
+### 🔍 특히 관심 있는 질문 | Questions I'm Particularly Curious About
 
 ```text
 • 모델 크기가 커지면 한국어 생성 품질은 어떻게 달라질까?
@@ -161,35 +257,51 @@
 • 추론 속도와 메모리 사용량을 어떻게 줄일 수 있을까?
 ```
 
+```text
+• How does larger model size affect Korean generation quality?
+• What's different between early and late training outputs?
+• How does data composition affect the model's voice and knowledge?
+• Beyond loss, how can I judge if training is working well?
+• How can I reduce inference speed and memory usage?
+```
+
 ---
 
-## 📚 내가 중요하게 생각하는 것
+## 📚 내가 중요하게 생각하는 것 | What Matters to Me
 
-### 01. 직접 만들기
+### 01. 직접 만들기 | Building It Myself
 
 개념을 배우는 가장 좋은 방법 중 하나는 직접 작은 버전을 만드는 것이라고 생각합니다.
 
-### 02. 로그 남기기
+The best way to learn a concept is to build a small version yourself.
+
+### 02. 로그 남기기 | Keeping Logs
 
 나중에 비교할 수 없는 실험은 다시 배울 수 없는 실험이 됩니다. 그래서 학습 과정과 결과를 계속 기록하려고 합니다.
 
-### 03. 실패 분석하기
+Experiments you can't compare later become experiments you can't learn from. So I keep recording the training process and results.
+
+### 03. 실패 분석하기 | Analyzing Failures
 
 모델의 이상한 출력이나 실패한 실험도 버리지 않고 원인을 추적합니다.
 
-### 04. 한 단계씩 개선하기
+I don't discard odd model outputs or failed experiments—I trace the root cause.
+
+### 04. 한 단계씩 개선하기 | Improving Step by Step
 
 처음부터 완벽한 시스템을 만들기보다, 지금 되는 것을 기준으로 다음 문제를 해결합니다.
 
+Rather than building a perfect system from scratch, I solve the next problem based on what currently works.
+
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap | 로드맵
 
 <div align="center">
   <img src="./assets/roadmap.svg" alt="AI roadmap" width="100%" />
 </div>
 
-### 🎯 현재 목표
+### 🎯 현재 목표 | Current Goal
 
 **Korean-llm-v4를 실제로 사용할 수 있는 한국어 모델에 최대한 가깝게 발전시키는 것**입니다.
 
@@ -197,7 +309,13 @@
 
 ---
 
-## 💻 What I'm Building
+**Advancing Korean-llm-v4 to be as close as possible to a usable Korean language model**.
+
+After that, I want to directly tackle **the entire AI system**, not just the model itself, including inference, evaluation, and productionization.
+
+---
+
+## 💻 What I'm Building | 지금 만드는 것
 
 ```text
                  ┌───────────────────────┐
@@ -227,6 +345,10 @@
 
 ---
 
+Understanding this entire structure step by step is my greatest learning right now.
+
+---
+
 ## 📊 GitHub Activity
 
 <div align="center">
@@ -242,24 +364,24 @@
 
 ---
 
-## 🏆 Highlights
+## 🏆 Highlights | 주요 성과
 
 <div align="center">
 
-| 🚀 | Highlight |
-|:--:|:--|
-| 🧠 | 약 1.09B 파라미터 한국어 LLM 개발 |
-| 🔥 | PyTorch 기반 학습 파이프라인 구축 |
-| 🇰🇷 | 한국어 데이터와 생성 품질에 집중 |
-| ⚡ | RoPE / KV Cache / 학습 최적화 실험 |
-| 📈 | 장시간 학습과 중간 결과 모니터링 |
-| 🧪 | 실패한 실험까지 기록하고 분석 |
+| 🚀 | Highlight | 설명 |
+|:--:|:--|:--|
+| 🧠 | ~1.09B Korean LLM | 약 1.09B 파라미터 한국어 LLM 개발 |
+| 🔥 | PyTorch Pipeline | PyTorch 기반 학습 파이프라인 구축 |
+| 🇰🇷 | Korean Focus | 한국어 데이터와 생성 품질에 집중 |
+| ⚡ | Advanced Techniques | RoPE / KV Cache / 학습 최적화 실험 |
+| 📈 | Long Training | 장시간 학습과 중간 결과 모니터링 |
+| 🧪 | Failure Analysis | 실패한 실험까지 기록하고 분석 |
 
 </div>
 
 ---
 
-## 🌱 Beyond the Current Model
+## 🌱 Beyond the Current Model | 현재 모델 너머로
 
 지금은 한국어 LLM 하나를 만드는 데 집중하고 있지만, 최종 목표는 특정 모델 하나에 머무르지 않습니다.
 
@@ -283,19 +405,49 @@ Real Users
 
 ---
 
-## 📎 Featured Repositories
+Right now I'm focused on building one Korean LLM, but my ultimate goal isn't to stop at a single model.
+
+I want to become a developer who **understands model architecture, handles data, designs training, builds inference systems, and connects everything into AI services real users can actually use**.
+
+```text
+Model
+  ↓
+Training
+  ↓
+Evaluation
+  ↓
+Inference
+  ↓
+Service
+  ↓
+Real Users
+```
+
+I'll build this step by step myself. 🚀
+
+---
+
+## 📎 Featured Repositories | 주요 저장소
 
 ### 🧠 [Korean-llm-v4](https://github.com/seoan1024/Korean-llm-v4)
 > 현재 메인 프로젝트. 약 1.09B 규모의 한국어 LLM을 개발하고 학습합니다.
+>
+> Current main project. Developing and training a ~1.09B Korean LLM.
 
 ### 🤖 [Korean-llm-v3](https://github.com/seoan1024/Korean-llm-v3)
 > PyTorch 기반 한국어 LLM 구현 및 학습 프로젝트.
+>
+> PyTorch-based Korean LLM implementation and training project.
 
 ### 🧪 [korean-llm-v2](https://github.com/seoan1024/korean-llm-v2)
 > 초기 구현과 학습 실험을 확장한 프로젝트.
+>
+> Expanded initial implementation and training experiments.
 
 ### 🌱 [korean-llm-v1](https://github.com/seoan1024/korean-llm-v1)
 > 한국어 LLM 프로젝트의 시작점.
+>
+> Starting point of the Korean LLM project.
 
 ---
 
@@ -315,4 +467,8 @@ Real Users
 
 <p align="center">
   <sub>Made with Python, curiosity, and a lot of training logs.</sub>
+</p>
+
+<p align="center">
+  <sub>Python, 호기심, 그리고 수많은 훈련 로그로 만들어졌습니다.</sub>
 </p>
