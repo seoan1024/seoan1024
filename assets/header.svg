@@ -37,7 +37,7 @@
   <rect x="58" y="48" width="1084" height="324" rx="26" fill="#0b1220" fill-opacity=".78" stroke="#334155"/>
   <rect x="92" y="84" width="8" height="105" rx="4" fill="url(#accent)"/>
   <text x="124" y="105" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#a5b4fc">A CURIOUS STUDENT PROGRAMMER</text>
-  <text class="headline" x="124" y="164" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="800" fill="#f8fafc">안녕하세요, 서안입니다!</text>
+  <text class="headline" x="124" y="164" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="800" fill="#f8fafc">개발 과정</text>
   <text class="bio-line" x="124" y="207" font-family="Segoe UI,Arial,sans-serif" font-size="21" fill="#cbd5e1">직접 만들고 실험하며 배우는 중입니다.</text>
   <text class="bio-line" x="124" y="238" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#94a3b8" style="animation-delay:-2s">I learn by building, experimenting, and staying curious.</text>
   <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">
