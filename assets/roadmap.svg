@@ -1,11 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Seoan AI roadmap">
-  <rect width="1200" height="440" rx="24" fill="#0b1220" stroke="#334155"/>
-  <text x="55" y="58" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="800" fill="#f8fafc">ROADMAP</text>
-  <text x="55" y="88" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#94a3b8">What comes after getting the model to train</text>
-  <g font-family="Inter,Segoe UI,Arial">
-    <g transform="translate(60 125)"><rect width="250" height="220" rx="18" fill="#111827" stroke="#7c3aed"/><text x="24" y="38" font-size="13" font-weight="800" fill="#a78bfa">01 / NOW</text><text x="24" y="76" font-size="22" font-weight="800" fill="#fff">Korean-llm-v4</text><text x="24" y="112" font-size="14" fill="#cbd5e1">학습 안정화</text><text x="24" y="138" font-size="14" fill="#cbd5e1">출력 품질 분석</text><text x="24" y="164" font-size="14" fill="#cbd5e1">로그 기반 튜닝</text><text x="24" y="195" font-size="13" fill="#94a3b8">1.09B-scale experiment</text></g>
-    <g transform="translate(335 125)"><rect width="250" height="220" rx="18" fill="#111827" stroke="#0ea5e9"/><text x="24" y="38" font-size="13" font-weight="800" fill="#67e8f9">02 / NEXT</text><text x="24" y="76" font-size="22" font-weight="800" fill="#fff">Quality</text><text x="24" y="112" font-size="14" fill="#cbd5e1">한국어 생성 품질</text><text x="24" y="138" font-size="14" fill="#cbd5e1">SFT 데이터 개선</text><text x="24" y="164" font-size="14" fill="#cbd5e1">평가 기준 정리</text><text x="24" y="195" font-size="13" fill="#94a3b8">Better outputs, not only loss</text></g>
-    <g transform="translate(610 125)"><rect width="250" height="220" rx="18" fill="#111827" stroke="#14b8a6"/><text x="24" y="38" font-size="13" font-weight="800" fill="#5eead4">03 / BUILD</text><text x="24" y="76" font-size="22" font-weight="800" fill="#fff">Inference</text><text x="24" y="112" font-size="14" fill="#cbd5e1">추론 최적화</text><text x="24" y="138" font-size="14" fill="#cbd5e1">KV Cache 활용</text><text x="24" y="164" font-size="14" fill="#cbd5e1">사용 가능한 API</text><text x="24" y="195" font-size="13" fill="#94a3b8">From weights to usable system</text></g>
-    <g transform="translate(885 125)"><rect width="250" height="220" rx="18" fill="#111827" stroke="#22d3ee"/><text x="24" y="38" font-size="13" font-weight="800" fill="#67e8f9">04 / GOAL</text><text x="24" y="76" font-size="22" font-weight="800" fill="#fff">Real Users</text><text x="24" y="112" font-size="14" fill="#cbd5e1">사람이 실제로 사용하는 모델</text><text x="24" y="138" font-size="14" fill="#cbd5e1">지속적인 개선</text><text x="24" y="164" font-size="14" fill="#cbd5e1">더 큰 AI 시스템으로 확장</text><text x="24" y="195" font-size="13" fill="#94a3b8">Learn → build → ship</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Hanok LLM roadmap</title>
+  <desc id="desc">The roadmap covers modular architecture, efficiency improvements, reproducible evaluation, and validated release workflows.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <style>
+      @media (prefers-reduced-motion: no-preference) {
+        .roadmap-flow { stroke-dasharray: 6 9; animation: flow 12s linear infinite; }
+        .roadmap-card { animation: highlight 5s ease-in-out infinite alternate; }
+        .roadmap-card-2 { animation-delay: 1.25s; }
+        .roadmap-card-3 { animation-delay: 2.5s; }
+        .roadmap-card-4 { animation-delay: 3.75s; }
+        .roadmap-title { animation: title-wave 2.5s ease-in-out infinite alternate; }
+        .roadmap-word { animation: reveal 3.5s ease-in-out infinite; }
+        .roadmap-word-2 { animation-delay: -.9s; }
+        .roadmap-word-3 { animation-delay: -1.8s; }
+        .roadmap-word-4 { animation-delay: -2.7s; }
+      }
+      @keyframes flow { to { stroke-dashoffset: -60; } }
+      @keyframes highlight { to { stroke-opacity: .45; } }
+      @keyframes title-wave { to { transform: translateY(-7px); fill: #67e8f9; } }
+      @keyframes reveal { 0%,15% { opacity: .2; } 50% { opacity: 1; } 85%,100% { opacity: .55; } }
+    </style>
+  </defs>
+  <rect width="1200" height="390" rx="24" fill="#0b1220" stroke="#334155"/>
+  <text class="roadmap-title" x="55" y="56" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" fill="#f8fafc">ROADMAP</text>
+  <text x="55" y="84" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#94a3b8">From a working codebase to measurable, reproducible improvements</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(55 120)"><rect class="roadmap-card" width="255" height="205" rx="18" fill="#111827" stroke="#7c3aed"/><text x="22" y="36" font-size="12" font-weight="800" fill="#c4b5fd">01 / FOUNDATION</text><text class="roadmap-word" x="22" y="75" font-size="21" font-weight="800" fill="#fff">Modularize</text><text x="22" y="111" font-size="14" fill="#cbd5e1">Separate model, data,</text><text x="22" y="134" font-size="14" fill="#cbd5e1">training, and inference.</text><text x="22" y="177" font-size="12" fill="#94a3b8">Built on Korean-llm research</text></g>
+    <g transform="translate(345 120)"><rect class="roadmap-card roadmap-card-2" width="255" height="205" rx="18" fill="#111827" stroke="#0e7490"/><text x="22" y="36" font-size="12" font-weight="800" fill="#67e8f9">02 / ENGINEERING</text><text class="roadmap-word roadmap-word-2" x="22" y="75" font-size="21" font-weight="800" fill="#fff">Improve efficiency</text><text x="22" y="111" font-size="14" fill="#cbd5e1">Apply memory-aware</text><text x="22" y="134" font-size="14" fill="#cbd5e1">training and KV caching.</text><text x="22" y="177" font-size="12" fill="#94a3b8">Measure changes against baselines</text></g>
+    <g transform="translate(635 120)"><rect class="roadmap-card roadmap-card-3" width="255" height="205" rx="18" fill="#111827" stroke="#15803d"/><text x="22" y="36" font-size="12" font-weight="800" fill="#86efac">03 / VALIDATION</text><text class="roadmap-word roadmap-word-3" x="22" y="75" font-size="21" font-weight="800" fill="#fff">Evaluate</text><text x="22" y="111" font-size="14" fill="#cbd5e1">Test training, inference,</text><text x="22" y="134" font-size="14" fill="#cbd5e1">quality, and reproducibility.</text><text x="22" y="177" font-size="12" fill="#94a3b8">Publish evidence, not assumptions</text></g>
+    <g transform="translate(925 120)"><rect class="roadmap-card roadmap-card-4" width="220" height="205" rx="18" fill="#111827" stroke="#0891b2"/><text x="20" y="36" font-size="12" font-weight="800" fill="#67e8f9">04 / RELEASE</text><text class="roadmap-word roadmap-word-4" x="20" y="75" font-size="21" font-weight="800" fill="#fff">Share</text><text x="20" y="111" font-size="14" fill="#cbd5e1">Validate checkpoint</text><text x="20" y="134" font-size="14" fill="#cbd5e1">and export workflows.</text><text x="20" y="177" font-size="12" fill="#94a3b8">Document model limitations</text></g>
   </g>
+  <path class="roadmap-flow" d="M310 222h35M600 222h35M890 222h35" stroke="url(#line)" stroke-width="3"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#94a3b8">Current priorities; not a claim that every milestone is complete.</text>
 </svg>

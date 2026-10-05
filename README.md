@@ -1,487 +1,113 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Seoan AI Lab" width="100%" />
+  <img src="./assets/hero.svg" alt="안녕하세요, AI와 한국어 언어 모델을 공부하고 만드는 서안입니다." width="100%" />
+
+  <h2>안녕하세요, 서안입니다 👋</h2>
+
+  <p>
+    직접 만들고, 궁금한 것을 실험하고, 하나씩 개선하는 과정을 좋아합니다.<br />
+    요즘은 AI와 한국어 언어 모델을 공부하고 있습니다.
+  </p>
+
+  <p>
+    <a href="https://github.com/seoan1024"><img src="https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub @seoan1024" /></a>
+    <img src="https://img.shields.io/badge/Role-Student%20Developer-7c3aed?style=for-the-badge" alt="Student developer" />
+    <img src="https://img.shields.io/badge/Focus-AI%20%26%20Korean%20LLM-0891b2?style=for-the-badge" alt="Focus: AI and Korean LLM" />
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-Learning-3776AB?style=flat-square&logo=python&logoColor=white" alt="Learning Python" />
+    <img src="https://img.shields.io/badge/C-Learning-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="Learning C" />
+    <img src="https://img.shields.io/badge/PyTorch-Exploring-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="Exploring PyTorch" />
+    <img src="https://img.shields.io/badge/Curiosity-Always%20On-f59e0b?style=flat-square&logo=lightning&logoColor=white" alt="Curiosity always on" />
+  </p>
 </div>
 
-<br />
+---
+
+## 🙋 저를 소개합니다
+
+- 코드를 직접 쓰고 실행하면서 배우는 것을 좋아합니다.
+- Python, 알고리즘, 데이터 분석, 머신러닝을 공부했고 지금은 C 언어도 배우고 있습니다.
+- AI가 어떻게 동작하는지 궁금해 모델 구조와 학습 과정을 살펴봅니다.
+- 완벽한 첫 시도보다, 작은 결과를 확인하고 꾸준히 개선하는 것을 중요하게 생각합니다.
+
+<details>
+  <summary><strong>English</strong></summary>
+  <br />
+  <ul>
+    <li>I like learning by writing and running code myself.</li>
+    <li>I've studied Python, algorithms, data analysis, and machine learning, and I'm currently learning C.</li>
+    <li>I'm curious about how AI works, so I explore model architectures and training.</li>
+    <li>I value steady improvement and learning from each attempt.</li>
+  </ul>
+</details>
+
+## 🧠 배우는 방식
 
 <div align="center">
-  <a href="https://github.com/seoan1024">
-    <img src="https://img.shields.io/badge/GitHub-seoan1024-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://img.shields.io/badge/Student-중학생-7c3aed?style=for-the-badge" alt="Student" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%2F%20LLM-06b6d4?style=for-the-badge" alt="AI LLM" />
-  <img src="https://img.shields.io/badge/Main%20Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/01-Ask%20a%20question-7c3aed?style=for-the-badge" alt="Step 1: Ask a question" />
+  <img src="https://img.shields.io/badge/02-Build%20something-6d28d9?style=for-the-badge" alt="Step 2: Build something" />
+  <img src="https://img.shields.io/badge/03-Try%20and%20observe-0891b2?style=for-the-badge" alt="Step 3: Try and observe" />
+  <img src="https://img.shields.io/badge/04-Learn%20and%20improve-0f766e?style=for-the-badge" alt="Step 4: Learn and improve" />
 </div>
 
-<p align="center">
-  <strong>중학생 프로그래머 · AI 개발자 · 한국어 LLM 제작자</strong><br />
-  코드를 쓰는 것에서 끝내지 않고, 모델을 직접 만들고 학습시키며 원인을 추적합니다.
-</p>
+예상과 다른 결과가 나와도 원인을 찾아 다음 시도에 반영하려고 합니다. 작은 실험과 실패에서도 배울 점을 찾는 것이 제가 좋아하는 공부 방식입니다.
 
-<p align="center">
-  <strong>Middle School Programmer · AI Developer · Korean LLM Creator</strong><br />
-  I don't stop at writing code—I build models, train them, and trace the reasons behind every result.
-</p>
+<details>
+  <summary><strong>English</strong></summary>
+  <br />
+  I try to understand unexpected results and use what I learn in my next attempt. Small experiments—even the failed ones—are part of how I learn.
+</details>
 
----
+## 🔎 요즘 관심 있는 것
 
-## 👋 안녕하세요, 서안입니다. | Hi, I'm Seoan.
-
-저는 **AI가 어떻게 만들어지는지 직접 이해하고 구현하는 것**을 좋아하는 중학생 프로그래머입니다.
-
-현재 파이썬 기본, 알고리즘, 알고리즘 심화, 데이터 분석, 머신러닝까지 다 배웠고, 현재 c언어를 배우고있습니다.
-
-특히 **한국어 LLM**을 만드는 데 관심이 많아서, 모델 구조를 코드로 구현하고 데이터를 준비하고 학습을 돌리면서 결과를 분석하는 프로젝트를 계속 확장하고 있습니다.
-
-저에게 개발은 완성된 답을 가져오는 일이 아니라,
-
-```text
-아이디어
-  ↓
-코드로 구현
-  ↓
-실제로 실행
-  ↓
-이상한 결과 발견
-  ↓
-로그 / 데이터 / 코드 분석
-  ↓
-가설 세우기
-  ↓
-수정하고 다시 학습
-  ↺
-```
-
-이 과정을 반복하면서 **"왜 이렇게 됐는가?"**를 알아가는 일에 가깝습니다. 🧠
-
----
-
-I'm a middle school programmer who loves **directly understanding and implementing how AI is built**.
-
-I've completed courses in Python basics, algorithms, advanced algorithms, data analysis, and machine learning. Currently, I'm learning C.
-
-I'm particularly interested in **building Korean LLMs**, so I continuously expand projects where I implement model architectures in code, prepare data, run training, and analyze results.
-
-For me, development isn't about getting finished answers—it's about repeating this cycle:
-
-```text
-Idea
-  ↓
-Implement in Code
-  ↓
-Actually Run It
-  ↓
-Find Strange Results
-  ↓
-Analyze Logs / Data / Code
-  ↓
-Form Hypotheses
-  ↓
-Fix and Retrain
-  ↺
-```
-
-And through this, I learn to ask **"Why did this happen?"** 🧠
-
-> **Build → Train → Analyze → Improve → Repeat**
-
----
-
-## 🇰🇷 My Main Project (KoreanLLM Project) | 내 주요 프로젝트
-
-### [Korean-llm-v4](https://github.com/seoan1024/Korean-llm-v4)
-
-**약 1.09B 파라미터 규모의 한국어 LLM**을 직접 개발하고 학습시키는 프로젝트입니다.
-
-단순히 모델을 불러와 사용하는 프로젝트가 아니라, **모델과 학습 파이프라인 자체를 이해하고 개선하는 것**을 목표로 하고 있습니다.
-
----
-
-A project where I directly develop and train a **Korean LLM with ~1.09B parameters**.
-
-This isn't just about using a pre-built model. The goal is to **understand and improve the model architecture and training pipeline itself**.
-
-<div align="center">
-  <img src="./assets/llm-stack.svg" alt="Korean LLM stack" width="100%" />
+<div>
+  <img src="https://img.shields.io/badge/AI-Learning-7c3aed?style=flat-square&logo=probot&logoColor=white" alt="Learning AI" />
+  <img src="https://img.shields.io/badge/Korean%20LLM-Curious-0891b2?style=flat-square&logo=googletranslate&logoColor=white" alt="Curious about Korean LLMs" />
+  <img src="https://img.shields.io/badge/Experiments-One%20step%20at%20a%20time-0f766e?style=flat-square&logo=labview&logoColor=white" alt="Experiments one step at a time" />
+  <img src="https://img.shields.io/badge/Code-Clean%20and%20clear-f59e0b?style=flat-square&logo=codementor&logoColor=white" alt="Clear, maintainable code" />
 </div>
 
-### 🔬 현재 다루는 영역 | Current Focus Areas
+- 한국어 문장을 이해하고 만들어 내는 언어 모델
+- 모델이 학습하는 방식과 데이터가 결과에 미치는 영향
+- 코드를 읽기 쉽고 고치기 쉽게 정리하는 방법
+- 실험 결과를 비교하고 실제로 나아졌는지 확인하는 방법
 
-| 영역 | 내용 |
-|:--|:--|
-| 🧠 Model | Transformer 기반 언어 모델 |
-| 📐 Position | RoPE |
-| ⚡ Inference | KV Cache |
-| 🎓 Training | 한국어 사전학습 + SFT |
-| 🧮 Optimization | BF16, 8-bit AdamW |
-| 💾 Data | 데이터셋 캐싱 및 학습 파이프라인 |
-| 📊 Monitoring | 학습 로그 저장 및 결과 비교 |
+<details>
+  <summary><strong>English</strong></summary>
+  <br />
+  <ul>
+    <li>Language models that understand and generate Korean</li>
+    <li>How models learn and how data shapes their outputs</li>
+    <li>Making code easier to understand and improve</li>
+    <li>Comparing experiments to see whether a change really helped</li>
+  </ul>
+</details>
 
-| Area | Description |
-|:--|:--|
-| 🧠 Model | Transformer-based language model |
-| 📐 Position | RoPE |
-| ⚡ Inference | KV Cache |
-| 🎓 Training | Korean pretraining + SFT |
-| 🧮 Optimization | BF16, 8-bit AdamW |
-| 💾 Data | Dataset caching and training pipeline |
-| 📊 Monitoring | Training logs and result comparison |
+## 🚀 요즘 만들고 있는 것
 
----
-
-## 🧪 최근의 실제 실험 | Recent Real Experiments
-
-모델을 학습시키다 보면 항상 멋진 결과만 나오지는 않습니다.
-
-최근에는 **학습 중 모델이 시스템 프롬프트를 반복해서 출력하는 문제**를 직접 경험했고, 설정을 되돌리고 기존 체크포인트를 정리한 뒤 다시 학습하면서 원인을 추적하고 있습니다.
-
-현재는 **50,000 step 규모의 학습을 목표로 다시 진행하면서**, 중간 결과를 저장하고 특정 구간의 출력과 로그를 비교하는 방식으로 실험하고 있습니다.
-
-저는 이런 과정도 프로젝트의 중요한 일부라고 생각합니다.
-
-> **실패한 학습도 데이터입니다.**
->
-> 결과가 이상하다면 실패를 지우는 것보다, 왜 실패했는지 기록하는 쪽을 선택합니다.
-
----
-
-Training models doesn't always produce great results.
-
-Recently, I experienced a problem where **the model kept repeating system prompts during training**. I reverted settings, cleaned up checkpoints, and retrained while tracking the root cause.
-
-Currently, I'm working toward **50,000-step training**, saving intermediate results and comparing outputs and logs across specific ranges.
-
-I believe these failures are an important part of the project itself.
-
-> **Failed training is also data.**
->
-> When results are wrong, I choose to record why it failed rather than delete the failure.
-
----
-
-## 🚀 Project Journey | 프로젝트 여정
-
-<div align="center">
-  <img src="./assets/journey.svg" alt="Korean LLM project journey" width="100%" />
+<div>
+  <a href="https://github.com/seoan1024/Hanok-LLM"><img src="https://img.shields.io/badge/Current%20project-Hanok%20LLM-111827?style=for-the-badge&logo=github&logoColor=white" alt="Current project: Hanok LLM" /></a>
+  <a href="https://github.com/seoan1024/Korean-llm"><img src="https://img.shields.io/badge/Research%20foundation-Korean--llm-334155?style=for-the-badge&logo=github&logoColor=white" alt="Research foundation: Korean-llm" /></a>
 </div>
 
-### 📌 Repository History | 저장소 역사
+기존 **Korean-llm**을 모듈화하고 학습·추론 과정을 개선한 **[Hanok LLM](https://github.com/seoan1024/Hanok-LLM)**을 만들며 배우고 있습니다. 프로젝트 설명은 [저장소에서 확인할 수 있습니다](https://github.com/seoan1024/Hanok-LLM).
 
-- **Korean-llm-v1**  : 첫 한국어 LLM 프로젝트
-- **Korean-llm-v2**  : 구현과 실험 확장
-- **Korean-llm-v3**  : PyTorch 기반 개선
-- **Korean-llm-v4**  : 약 1.09B 규모로 확장한 현재 메인 프로젝트
+<details>
+  <summary><strong>English</strong></summary>
+  <br />
+  I'm learning by building **[Hanok LLM](https://github.com/seoan1024/Hanok-LLM)**, a more modular continuation of my Korean-llm work with improvements to the training and inference workflow. See the repository for project details.
+</details>
 
-각 버전은 단순한 새 폴더가 아니라, 이전 버전에서 생긴 문제와 배운 점을 다음 버전으로 가져가는 **실험 기록의 연속**입니다.
-
----
-
-- **Korean-llm-v1**  : First Korean LLM project
-- **Korean-llm-v2**  : Expanded implementation and experiments
-- **Korean-llm-v3**  : PyTorch-based improvements
-- **Korean-llm-v4**  : Current main project scaled to ~1.09B
-
-Each version isn't just a new folder—it's a **continuous record of experiments**, carrying forward problems and lessons from previous versions.
-
----
-
-## 🛠️ Tech Stack
-
-### AI / Machine Learning
+## 🛠️ 요즘 사용하는 도구
 
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111827" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Python-Studying-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Studying Python" />
+  <img src="https://img.shields.io/badge/C-Studying-A8B9CC?style=for-the-badge&logo=c&logoColor=111827" alt="Studying C" />
+  <img src="https://img.shields.io/badge/PyTorch-Exploring-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="Exploring PyTorch" />
+  <img src="https://img.shields.io/badge/Git-Practicing-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Practicing Git" />
 </p>
 
-### Development
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
-</p>
-
-### 사용하는 도구와 가치관 | Tools & Philosophy
-
-사용하는 도구는 계속 바뀌고 있습니다. 중요한 건 도구의 개수보다 **직접 이해하고 사용할 수 있는가**라고 생각합니다.
-
----
-
-The tools I use keep evolving. What matters isn't the number of tools but **understanding and actually using them myself**.
-
----
-
-## 🧠 How I Learn AI | AI 배우는 방식
-
-저는 AI를 배울 때 **설명만 읽기보다 직접 구현하고 결과를 관찰하는 방식**을 선호합니다.
-
-예를 들어 어떤 설정이 모델에 영향을 주는지 궁금하면,
-
-1. 현재 설정으로 학습합니다.
-2. 로그와 생성 결과를 저장합니다.
-3. 하나의 변수만 바꿉니다.
-4. 다시 학습합니다.
-5. 두 실험을 비교합니다.
-6. 차이가 왜 생겼는지 가설을 세웁니다.
-
-이렇게 작은 실험을 쌓아가면서 모델을 이해하려고 합니다.
-
----
-
-When learning AI, I prefer **implementing directly and observing results over just reading explanations**.
-
-For example, if I'm curious how a setting affects the model:
-
-1. Train with the current setting.
-2. Save logs and generation results.
-3. Change only one variable.
-4. Train again.
-5. Compare the two experiments.
-6. Form hypotheses about why the difference occurred.
-
-By accumulating these small experiments, I try to understand the model.
-
----
-
-### 🔍 특히 관심 있는 질문 | Questions I'm Particularly Curious About
-
-```text
-• 모델 크기가 커지면 한국어 생성 품질은 어떻게 달라질까?
-• 학습 초반과 후반의 출력은 무엇이 달라질까?
-• 데이터의 구성이 모델의 말투와 지식에 어떤 영향을 줄까?
-• 학습이 잘 되고 있는지 loss 이외에 어떻게 판단할 수 있을까?
-• 추론 속도와 메모리 사용량을 어떻게 줄일 수 있을까?
-```
-
-```text
-• How does larger model size affect Korean generation quality?
-• What's different between early and late training outputs?
-• How does data composition affect the model's voice and knowledge?
-• Beyond loss, how can I judge if training is working well?
-• How can I reduce inference speed and memory usage?
-```
-
----
-
-## 📚 내가 중요하게 생각하는 것 | What Matters to Me
-
-### 01. 직접 만들기 | Building It Myself
-
-개념을 배우는 가장 좋은 방법 중 하나는 직접 작은 버전을 만드는 것이라고 생각합니다.
-
-The best way to learn a concept is to build a small version yourself.
-
-### 02. 로그 남기기 | Keeping Logs
-
-나중에 비교할 수 없는 실험은 다시 배울 수 없는 실험이 됩니다. 그래서 학습 과정과 결과를 계속 기록하려고 합니다.
-
-Experiments you can't compare later become experiments you can't learn from. So I keep recording the training process and results.
-
-### 03. 실패 분석하기 | Analyzing Failures
-
-모델의 이상한 출력이나 실패한 실험도 버리지 않고 원인을 추적합니다.
-
-I don't discard odd model outputs or failed experiments—I trace the root cause.
-
-### 04. 한 단계씩 개선하기 | Improving Step by Step
-
-처음부터 완벽한 시스템을 만들기보다, 지금 되는 것을 기준으로 다음 문제를 해결합니다.
-
-Rather than building a perfect system from scratch, I solve the next problem based on what currently works.
-
----
-
-## 🗺️ Roadmap | 로드맵
-
 <div align="center">
-  <img src="./assets/roadmap.svg" alt="AI roadmap" width="100%" />
+  <img src="./assets/footer.svg" alt="만들고, 배우고, 더 나아가기 — Keep building and learning." width="100%" />
 </div>
-
-### 🎯 현재 목표 | Current Goal
-
-**Korean-llm-v4를 실제로 사용할 수 있는 한국어 모델에 최대한 가깝게 발전시키는 것**입니다.
-
-그 다음에는 모델 자체뿐 아니라 **추론, 평가, 서비스화까지 포함한 AI 시스템 전체**를 직접 다뤄보고 싶습니다.
-
----
-
-**Advancing Korean-llm-v4 to be as close as possible to a usable Korean language model**.
-
-After that, I want to directly tackle **the entire AI system**, not just the model itself, including inference, evaluation, and productionization.
-
----
-
-## 💻 What I'm Building | 지금 만드는 것
-
-```text
-                 ┌───────────────────────┐
-                 │     Korean LLM        │
-                 │       Korean-llm-v4   │
-                 └──────────┬────────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-          ▼                 ▼                 ▼
-     Model / Arch        Data Pipeline      Training
-      Transformer         Korean Data       Pretraining
-      RoPE                Caching            SFT
-      Attention           Processing         Optimization
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            ▼
-                     Logs & Evaluation
-                            │
-                            ▼
-                        Improvement
-                            │
-                            └──────↺
-```
-
-이 구조 전체를 하나씩 이해해보는 것이 지금의 가장 큰 공부입니다.
-
----
-
-Understanding this entire structure step by step is my greatest learning right now.
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-  <a href="https://github.com/seoan1024">
-    <img src="https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</div>
-
-### 🔥 Latest Projects
-
-**Korean-llm-v4** (Main) — ~1.09B Parameter Korean LLM  
-**Korean-llm-v3** — PyTorch Implementation  
-**Korean-llm-v2** — Experiment & Expansion  
-**Korean-llm-v1** — Project Foundation
-
-<div align="center">
-  
-| Repository | Language | Stars |
-|:--|:--|:--|
-| korean-llm-v4 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v4?style=flat-square&logo=github) |
-| korean-llm-v3 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/Korean-llm-v3?style=flat-square&logo=github) |
-| korean-llm-v2 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/korean-llm-v2?style=flat-square&logo=github) |
-| korean-llm-v1 | Python | ![GitHub stars](https://img.shields.io/github/stars/seoan1024/korean-llm-v1?style=flat-square&logo=github) |
-
-</div>
-
----
-
-## 🏆 Highlights | 주요 성과
-
-<div align="center">
-
-| 🚀 | Highlight | 설명 |
-|:--:|:--|:--|
-| 🧠 | ~1.09B Korean LLM | 약 1.09B 파라미터 한국어 LLM 개발 |
-| 🔥 | PyTorch Pipeline | PyTorch 기반 학습 파이프라인 구축 |
-| 🇰🇷 | Korean Focus | 한국어 데이터와 생성 품질에 집중 |
-| ⚡ | Advanced Techniques | RoPE / KV Cache / 학습 최적화 실험 |
-| 📈 | Long Training | 장시간 학습과 중간 결과 모니터링 |
-| 🧪 | Failure Analysis | 실패한 실험까지 기록하고 분석 |
-
-</div>
-
----
-
-## 🌱 Beyond the Current Model | 현재 모델 너머로
-
-지금은 한국어 LLM 하나를 만드는 데 집중하고 있지만, 최종 목표는 특정 모델 하나에 머무르지 않습니다.
-
-**모델의 구조를 이해하고, 데이터를 다루고, 학습을 설계하고, 추론 시스템을 만들고, 실제 사용자가 쓸 수 있는 AI 서비스까지 연결하는 개발자**가 되고 싶습니다.
-
-```text
-Model
-  ↓
-Training
-  ↓
-Evaluation
-  ↓
-Inference
-  ↓
-Service
-  ↓
-Real Users
-```
-
-한 단계씩 올라가면서 직접 만들어보겠습니다. 🚀
-
----
-
-Right now I'm focused on building one Korean LLM, but my ultimate goal isn't to stop at a single model.
-
-I want to become a developer who **understands model architecture, handles data, designs training, builds inference systems, and connects everything into AI services real users can actually use**.
-
-```text
-Model
-  ↓
-Training
-  ↓
-Evaluation
-  ↓
-Inference
-  ↓
-Service
-  ↓
-Real Users
-```
-
-I'll build this step by step myself. 🚀
-
----
-
-## 📎 Featured Repositories | 주요 저장소
-
-### 🧠 [Korean-llm-v4](https://github.com/seoan1024/Korean-llm-v4)
-> 현재 메인 프로젝트. 약 1.09B 규모의 한국어 LLM을 개발하고 학습합니다.
->
-> Current main project. Developing and training a ~1.09B Korean LLM.
-
-### 🤖 [Korean-llm-v3](https://github.com/seoan1024/Korean-llm-v3)
-> PyTorch 기반 한국어 LLM 구현 및 학습 프로젝트.
->
-> PyTorch-based Korean LLM implementation and training project.
-
-### 🧪 [korean-llm-v2](https://github.com/seoan1024/korean-llm-v2)
-> 초기 구현과 학습 실험을 확장한 프로젝트.
->
-> Expanded initial implementation and training experiments.
-
-### 🌱 [korean-llm-v1](https://github.com/seoan1024/korean-llm-v1)
-> 한국어 LLM 프로젝트의 시작점.
->
-> Starting point of the Korean LLM project.
-
----
-
-## 📬 Contact / GitHub
-
-<div align="center">
-  <a href="https://github.com/seoan1024">
-    <img src="https://img.shields.io/badge/GitHub-seoan1024-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./assets/footer.svg" alt="Keep building" width="100%" />
-</div>
-
-<p align="center">
-  <sub>Made with Python, curiosity, and a lot of training logs.</sub>
-</p>
-
-<p align="center">
-  <sub>Python, 호기심, 그리고 수많은 훈련 로그로 만들어졌습니다.</sub>
-</p>

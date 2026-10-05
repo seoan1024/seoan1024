@@ -1,14 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Korean LLM project journey from v1 to v4">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
-  <rect width="1200" height="320" rx="24" fill="#0b1220" stroke="#334155"/>
-  <text x="52" y="56" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="800" fill="#f8fafc">PROJECT JOURNEY</text>
-  <text x="52" y="84" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#94a3b8">From experiments to a serious Korean LLM training pipeline</text>
-  <path d="M112 182 H1080" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
-  <path d="M112 182 H1080" stroke="url(#g)" stroke-width="4" stroke-linecap="round" opacity=".9"/>
-  <g font-family="Inter,Segoe UI,Arial">
-    <g><circle cx="160" cy="182" r="29" fill="#111827" stroke="#7c3aed" stroke-width="4"/><text x="160" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v1</text><text x="160" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Start</text><text x="160" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">첫 구현과 실험</text></g>
-    <g><circle cx="470" cy="182" r="29" fill="#111827" stroke="#8b5cf6" stroke-width="4"/><text x="470" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v2</text><text x="470" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Expand</text><text x="470" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">구조와 학습 경험 확장</text></g>
-    <g><circle cx="760" cy="182" r="29" fill="#111827" stroke="#5eead4" stroke-width="4"/><text x="760" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v3</text><text x="760" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Refine</text><text x="760" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">PyTorch 기반 개선</text></g>
-    <g><circle cx="1040" cy="182" r="31" fill="#0f172a" stroke="#22d3ee" stroke-width="5"/><text x="1040" y="190" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">v4</text><text x="1040" y="238" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Build</text><text x="1040" y="260" text-anchor="middle" font-size="13" fill="#94a3b8">~1.09B 한국어 LLM</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Korean-llm to Hanok LLM</title>
+  <desc id="desc">The project evolves from initial model and training experiments into a modular codebase with efficiency-focused improvements.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <style>
+      @media (prefers-reduced-motion: no-preference) {
+        .journey-flow { stroke-dasharray: 10 14; animation: flow 16s linear infinite; }
+        .milestone { animation: highlight 3s ease-in-out infinite alternate; }
+        .step-text { animation: rise 2.4s ease-in-out infinite alternate; }
+        .milestone-2 { animation-delay: .75s; }
+        .milestone-3 { animation-delay: 1.5s; }
+        .milestone-4 { animation-delay: 2.25s; }
+        .step-2 { animation-delay: -.6s; }
+        .step-3 { animation-delay: -1.2s; }
+        .step-4 { animation-delay: -1.8s; }
+      }
+      @keyframes flow { to { stroke-dashoffset: -96; } }
+      @keyframes highlight { to { stroke-opacity: .5; } }
+      @keyframes rise { to { transform: translateY(-8px); fill: #67e8f9; } }
+    </style>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="#0b1220" stroke="#334155"/>
+  <text class="step-text" x="52" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#f8fafc">PROJECT EVOLUTION</text>
+  <text x="52" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#94a3b8">Korean-llm experiments became the foundation for Hanok LLM</text>
+  <path d="M145 169H1050" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+  <path class="journey-flow" d="M145 169H1050" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g><circle class="milestone" cx="180" cy="169" r="27" fill="#111827" stroke="#8b5cf6" stroke-width="4"/><text x="180" y="175" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">01</text><text class="step-text" x="180" y="222" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Korean-llm</text><text x="180" y="247" text-anchor="middle" font-size="13" fill="#94a3b8">모델·학습 실험</text><text x="180" y="267" text-anchor="middle" font-size="12" fill="#64748b">Model and training research</text></g>
+    <g><circle class="milestone milestone-2" cx="460" cy="169" r="27" fill="#111827" stroke="#8b5cf6" stroke-width="4"/><text x="460" y="175" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">02</text><text class="step-text step-2" x="460" y="222" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">모듈화</text><text x="460" y="247" text-anchor="middle" font-size="13" fill="#94a3b8">기능별 패키지 분리</text><text x="460" y="267" text-anchor="middle" font-size="12" fill="#64748b">Model · data · train · infer</text></g>
+    <g><circle class="milestone milestone-3" cx="740" cy="169" r="27" fill="#111827" stroke="#5eead4" stroke-width="4"/><text x="740" y="175" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">03</text><text class="step-text step-3" x="740" y="222" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">효율 개선</text><text x="740" y="247" text-anchor="middle" font-size="13" fill="#94a3b8">BF16 · 체크포인팅 · KV cache</text><text x="740" y="267" text-anchor="middle" font-size="12" fill="#64748b">Efficiency-focused features</text></g>
+    <g><circle class="milestone milestone-4" cx="1020" cy="169" r="30" fill="#0f172a" stroke="#22d3ee" stroke-width="5"/><text x="1020" y="175" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">04</text><text class="step-text step-4" x="1020" y="222" text-anchor="middle" font-size="18" font-weight="800" fill="#f8fafc">Hanok LLM</text><text x="1020" y="247" text-anchor="middle" font-size="13" fill="#94a3b8">통합·검증·개선</text><text x="1020" y="267" text-anchor="middle" font-size="12" fill="#64748b">A maintainable LLM stack</text></g>
   </g>
+  <text x="600" y="312" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#94a3b8">구조를 정리하고, 효율 기능을 더하고, 측정 가능한 개선을 이어갑니다.</text>
 </svg>
