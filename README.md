@@ -198,3 +198,86 @@ Hanok LLM은 **모델, 데이터, 학습, 추론을 나누어 관리할 수 있�
 <div align="center">
   <img src="./assets/footer.svg" alt="만들고, 배우고, 더 나아가기 — Keep building and learning." width="100%" />
 </div>
+
+## 🏁 마지막으로 | Finally
+
+이 프로젝트는 처음부터 거대한 목표를 가지고 만든 것은 아닙니다.
+
+처음에는 무료 사용량이 아쉬웠고,
+
+그다음에는 로컬 모델이 너무 무거웠고,
+
+그래서
+
+> **"그러면 내가 직접 만들어보면 되지 않을까?"**
+
+라는 생각이 들었습니다.
+
+그때는 LLM이 어떻게 만들어지는지도 거의 몰랐습니다.
+
+50M 모델에서 시작해서,
+
+541M으로 키워보고,
+
+1.09B까지 올려보고,
+
+버그 때문에 결과를 버려보기도 하고,
+
+양자화를 시도하고,
+
+결국 v4에서는 데이터와 학습 과정을 다시 설계하게 됐습니다.
+
+아직 갈 길이 꽤 남았습니다.
+
+그래도 적어도 하나는 알게 됐습니다.
+
+> **직접 만들어본 모델은 숫자로만 보는 모델보다 훨씬 재미있습니다.**
+
+이 저장소가 누군가에게도
+
+> "나도 한번 만들어볼까?"
+
+라는 생각을 만들어준다면 충분합니다.
+
+<details>
+  <summary><strong>English</strong></summary>
+  <br />
+  This project wasn't made with grand goals from the start.
+
+  Initially, I was frustrated with free usage limits.
+
+  Then local models were too heavy.
+
+  So I thought:
+
+  > **"Could I just build one myself?"**
+  
+  At that time, I barely knew how LLMs were made.
+
+  Starting from a 50M model,
+
+  scaling to 541M,
+
+  pushing to 1.09B,
+
+  discarding results due to bugs,
+
+  attempting quantization,
+
+  and eventually redesigning data and training in v4.
+
+  There's still quite a path ahead.
+
+  But at least I've learned one thing:
+
+  > **A model you built yourself is way more interesting than just looking at numbers.**
+
+  If this repository makes someone think:
+
+  > "Maybe I should try building one too?"
+
+  That would be enough.
+  </details>
+
+
+
